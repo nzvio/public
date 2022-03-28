@@ -1,0 +1,19 @@
+[    
+    {
+        "id": 1,   
+        "name": "en",
+        "title": "English",
+        "dir": "ltr",
+        "phrases": {            
+            "common-name": "Breedpride",
+            "common-error": "An error has occurred",                   
+            "common-loading": "loading...",
+            "common-empty": "empty",  
+            "common-search": "Search...",          
+            
+            "----pages----": "",
+
+            "home-title": "Home"
+        }
+    }           
+]

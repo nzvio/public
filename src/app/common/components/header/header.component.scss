@@ -1,0 +1,20 @@
+header {
+    position: fixed; z-index: 10; left: 0; top: 0; height: 60px; width: 100%; background-color: var(--color-blue1-transparent); transition: 0.3s;
+    &.opaque {background-color: var(--color-blue1); box-shadow: 0px 3px 3px 0px rgba(0,0,0,0.5);}
+    .h-content {
+        height: 100%; max-width: 1200px; margin: 0 auto; display: flex; justify-content: space-between; padding: 0 15px;
+        .h-left {
+            display: flex; height: 100%; align-items: center;
+            .h-logo {
+                img {height: 36px;}
+            }
+        }
+        .h-right {
+            display: flex; height: 100%; align-items: center;
+            .h-search {
+                button {display: none;}
+                input {width: 180px;}
+            }
+        }
+    }
+}

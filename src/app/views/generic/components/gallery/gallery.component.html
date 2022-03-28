@@ -1,0 +1,20 @@
+<div class="gallery">
+    <div class="g-content">
+        <div class="g-dash">
+            <div class="g-txt">
+                <div class="g-name">Barbos</div>
+                <div class="g-title">corgi</div>
+                <div class="g-title margined">some data of this pet</div>
+                <div class="g-action"><a>Some action</a></div>
+            </div>
+            <div class="g-switch" *ngIf="images.length > 1">                
+                <div *ngFor="let image of images; let i = index;" class="g-switchitem" [class.active]="i === current" (click)="current = i"></div>
+            </div>
+        </div>        
+        <div class="g-images" *ngIf="images.length">
+            <div class="g-imgwrap">
+                <div *ngFor="let image of images; let i = index;" class="g-img" [class.active]="i === current" [style.background-image]="'url('+image+')'"></div>        
+            </div>            
+        </div>
+    </div>    
+</div>

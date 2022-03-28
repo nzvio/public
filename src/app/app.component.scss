@@ -1,0 +1,10 @@
+@import "./common/styles/_var.scss";
+
+html {	
+    body {        
+        margin: 0; padding: 0; font-size: 16px; font-family: "inter", Helvetica, sans-serif;				
+		@import "./common/styles/_general.scss";		
+		@import "./common/styles/_layout.scss";		
+		@import "./common/styles/_helpers.scss";				
+    }
+}

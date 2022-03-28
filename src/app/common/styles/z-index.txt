@@ -1,0 +1,5 @@
+loading ovl - auto
+header - 10
+
+errors - 1000
+preloader - 10000
